@@ -19,7 +19,9 @@ ESTE PEQUENO TRECHO DE CÓDIGO EQUIVALE A AÇÂO DE SUBMETER ESTE FORMULÁRIO:
 
 
 PS: Para dar aparencia de algo clicável use:
+```
 <elemento style="cursor:pointer">Sou clicável!</elemento>
+```
 
 
 ---
