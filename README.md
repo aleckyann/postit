@@ -2,9 +2,10 @@
 
 
 ###PARA USAR É SIMPLES, EXEMPLO:
+```
 <script src="postit.js" />
 <i onclick="postit('index.php', 'name' 'Aleck')">My name is Aleck!</i>
-
+```
 ESTE PEQUENO TRECHO DE CÓDIGO EQUIVALE A AÇÂO DE SUBMETER ESTE FORMULÁRIO:
 ```
 <form action="index.php" method="POST">
