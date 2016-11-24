@@ -1,4 +1,4 @@
-# postit
+# postit.js
 
 
 ###PARA USAR É SIMPLES, EXEMPLO:
