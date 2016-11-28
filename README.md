@@ -1,4 +1,4 @@
-# postit.js 2!
+# postit.js - 0.7 Kb ;)
 
 
 ## URL E HTML LIMPOS COM POSTITJS
