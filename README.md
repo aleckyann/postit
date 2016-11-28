@@ -42,7 +42,7 @@ onhover();
 
 
 POR PADRÃO TODOS OS ELEMENTOS QUE USAM O POSTIT, RECEBEM EFEITO DE POINTER: style="cursor:pointer" PARA TEREM APARÊNCIA DE ITENS CLICÁVEIS, ASSIM COMO LINKS E BOTÕES.
-===
+---
 
 
 V1 = Funções específicas para quantidades específicas de inputs;
