@@ -43,8 +43,4 @@ DESTA FORMA QUALQUER ELEMENTO DO SEU HTML PODERÁ APRESENTAR COMPORTAMENTO DE UM
 
 >POR PADRÃO TODOS OS ELEMENTOS QUE USAM O POSTIT, RECEBEM EFEITO DE POINTER: style="cursor:pointer" PARA TEREM APARÊNCIA DE ITENS CLICÁVEIS, ASSIM COMO LINKS E BOTÕES.
 
-
-
-v1 = Funções específicas para quantidades específicas de inputs;
-
-v2 = Entrada de inputs dinâmica e enxuta;
+Version: 1.0.9
