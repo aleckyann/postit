@@ -45,5 +45,6 @@ DESTA FORMA QUALQUER ELEMENTO DO SEU HTML PODERÁ APRESENTAR COMPORTAMENTO DE UM
 
 
 
-V1 = Funções específicas para quantidades específicas de inputs;
-V2 = Entrada de inputs dinâmica e enxuta;
+v1 = Funções específicas para quantidades específicas de inputs;
+
+v2 = Entrada de inputs dinâmica e enxuta;
