@@ -1,28 +1,46 @@
-# postit.js
+# postit.js 2!
 
 
 ###PARA USAR É SIMPLES, EXEMPLO:
+---
 ```
 <script src="postit.js" />
-<i onclick="postit('index.php', 'name' 'Aleck')">My name is Aleck!</i>
+<i onclick="postit('index.php', ['name=Aleck Yann Mattos', 'email=aleckyann@gmail.com', 'id=22'])">Go!</i>
 ```
-ESTE PEQUENO TRECHO DE CÓDIGO EQUIVALE A AÇÂO DE SUBMETER ESTE FORMULÁRIO:
+
+
+O TRECHO DE CÓDIGO ACIMA EQUIVALE A AÇÂO DE SUBMETER ESTE FORMULÁRIO:
 ```
 <form action="index.php" method="POST">
-    <input type="hidden" name="name" value="Aleck">
-    <input type="submit" value="My name is Aleck!">
+    <input type="hidden" name="name" value="Aleck Yann Mattos">
+    <input type="hidden" name="email" value="aleckyann@gmail.com">
+    <input type="hidden" name="id" value="22">
+    <input type="submit" value="Go!">
 </form>
 ```
-### DESTA FORMA QUALQUER ELEMENTO PODERÁ APRESENTAR COMPORTAMENTO DE UM FORMULÁRIO, SEM POLUIR SEU CÓDIGO HTML COM TAGS ```<form><input></input></form>```
 
-### LEMBRE-SE, qualquer elemento pode ser usado, no exemplo usei uma tag ```<i> </i>```, mas use qualquer uma!
-
-
-PS: Para dar aparencia de algo clicável use:
+REPARE COMO É FEITO:
 ```
-<elemento style="cursor:pointer">Sou clicável!</elemento>
+onclick='postit('urlDeDestino', ['nameDoInput=valueDoInput', 'nameDoInput2=valueDoInput2', ...])'
 ```
+> Repare que você pode passar quantos elementos quiser para o postit, basta seguir a sintaxe: ['name:value'].
 
 
----
-Para submeter mais de um campo, use postit2.js
+VOCÊ PODE USAR QUALQUER EVENTO PARA DISPARA O POSTIT!
+ ```
+onclick();
+onchange();
+ondrag();
+onhover();
+...
+ ```
+
+### DESTA FORMA QUALQUER ELEMENTO DO SEU HTML PODERÁ APRESENTAR COMPORTAMENTO DE UM FORMULÁRIO, SEM POLUIR SEU CÓDIGO HTML COM TAGS ```<form><input></input></form>```
+
+### LEMBRE-SE, QUALQUER ELEMENTO HTML PODE SER USADO!
+
+POR PADRÃO TODOS OS ELEMENTOS QUE USAM O POSTIT, RECEBEM EFEITO DE POINTER: style="cursor:pointer".
+
+
+
+===
