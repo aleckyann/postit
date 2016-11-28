@@ -24,7 +24,7 @@
 ```
 onclick='postit('urlDeDestino', ['nameDoInput=valueDoInput', 'nameDoInput2=valueDoInput2', ...])'
 ```
-> Repare que você pode passar quantos elementos quiser para o postit, basta seguir a sintaxe: ['name:value'].
+> Repare que você pode passar quantos elementos quiser para o postit, basta seguir a sintaxe: ['name=value', 'name=value'].
 
 
 ###VOCÊ PODE USAR QUALQUER EVENTO PARA DISPARAR O postit.js!
