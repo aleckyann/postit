@@ -1,5 +1,5 @@
 
-    <script src="../postit2.js"></script>
+    <script src="../postit.min.js"></script>
 
     Exemplo:<br>
     <small>postit('/', ['name=Aleck Yann Mattos', 'idade=22', 'email=aleckyann@gmail.com', 'sexo=masculino'])</small>
